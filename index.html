@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tựa Sách Phật Giáo | Tìm Lại Sự Bình An</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Quicksand', sans-serif; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        .bg-zen { bg-color: #f4f1ea; }
+    </style>
+</head>
+<body class="bg-[#fdfbf7] text-gray-800">
+
+    <section class="min-h-screen flex flex-col items-center justify-center px-6 py-12 text-center bg-[url('https://images.unsplash.com/photo-1528319725582-ddc0b3a1ec7f?auto=format&fit=crop&q=80&w=1500')] bg-cover bg-fixed relative">
+        <div class="absolute inset-0 bg-white/70"></div>
+        <div class="relative z-10 max-w-3xl">
+            <span class="text-amber-800 font-bold tracking-widest uppercase">Thức tỉnh & Bình an</span>
+            <h1 class="text-4xl md:text-6xl mt-4 mb-6 text-amber-900 italic">"Ánh đạo vàng trong từng trang sách"</h1>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">Khám phá hành trình tìm lại chính mình qua tác phẩm đặc biệt này. Một món quà cho tâm hồn giữa lòng đời biến động.</p>
+            <a href="#order" class="bg-amber-800 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-amber-900 transition shadow-lg">Đặt mua ngay</a>
+        </div>
+    </section>
+
+    <section class="py-20 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=800" alt="Book Cover" class="rounded-lg shadow-2xl border-8 border-white">
+        </div>
+        <div>
+            <h2 class="text-3xl font-bold text-amber-900 mb-6">Nội dung cuốn sách sẽ giúp bạn...</h2>
+            <ul class="space-y-4 text-lg">
+                <li class="flex items-start">
+                    <span class="text-amber-700 mr-2">✦</span> Thấu hiểu quy luật nhân quả và nghiệp báo.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-amber-700 mr-2">✦</span> Thực hành thiền định trong đời sống bận rộn.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-amber-700 mr-2">✦</span> Chuyển hóa nỗi đau thành sức mạnh nội tại.
+                </li>
+                <li class="flex items-start">
+                    <span class="text-amber-700 mr-2">✦</span> Tìm thấy niềm vui tự tại, không phụ thuộc ngoại cảnh.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="order" class="py-20 bg-[#f4ece1]">
+        <div class="max-w-xl mx-auto px-6">
+            <div class="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-amber-100">
+                <h2 class="text-2xl font-bold text-center text-amber-900 mb-8 font-serif">Thỉnh sách tại đây</h2>
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-bold text-amber-800 mb-2">Họ tên người nhận</label>
+                        <input type="text" class="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-700" placeholder="Nguyễn Văn A">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-amber-800 mb-2">Số điện thoại</label>
+                        <input type="tel" class="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-700" placeholder="090...">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-amber-800 mb-2">Địa chỉ giao hàng</label>
+                        <textarea class="w-full p-4 rounded-lg bg-gray-50 border border-gray-200 focus:outline-none focus:border-amber-700" rows="3" placeholder="Số nhà, tên đường, phường/xã..."></textarea>
+                    </div>
+                    <div class="bg-amber-50 p-4 rounded-lg flex justify-between items-center mb-6">
+                        <span class="font-bold">Giá phát hành:</span>
+                        <span class="text-2xl font-bold text-amber-800">150.000đ</span>
+                    </div>
+                    <button class="w-full bg-amber-800 text-white font-bold py-4 rounded-lg text-xl hover:bg-amber-900 transition">XÁC NHẬN ĐẶT SÁCH</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-500 text-sm">
+        <p>© 2026 Nhà sách Tâm An. Kết duyên lành cho mọi nhà.</p>
+    </footer>
+
+</body>
+</html>
